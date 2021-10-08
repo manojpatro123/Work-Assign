@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Work Assign Task" max_length="40" name="x_687487_work_assi_work_assign_task" sizeclass="0" type="collection">
+        <element label="Work Assign" max_length="32" name="work_assign" reference="cmdb_ci_nic" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="cmdb_ci_nic" version="2" view="work_assign">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cloud Mgmt Network Interface - Work Assign" name="cmdb_ci_nic" related_list="NULL" sys_domain="global" view="c34111991b033010ea4c2134604bcb6f">6f6295d91b033010ea4c2134604bcb09</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_ci_ip_address.nic</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_id>6b6295d91b033010ea4c2134604bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cloud Mgmt Network Interface - Work Assign" name="cmdb_ci_nic" related_list="NULL" sys_domain="global" view="c34111991b033010ea4c2134604bcb6f">6f6295d91b033010ea4c2134604bcb09</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:f0c3c90a0a0a0b6b6a61901e30c71b8c</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_id>6f6295d91b033010ea4c2134604bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cloud Mgmt Network Interface - Work Assign" name="cmdb_ci_nic" related_list="NULL" sys_domain="global" view="c34111991b033010ea4c2134604bcb6f">6f6295d91b033010ea4c2134604bcb09</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:49f2ce4e73001010a64ec3ed8ff6a7de</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_id>636295d91b033010ea4c2134604bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cloud Mgmt Network Interface - Work Assign" name="cmdb_ci_nic" related_list="NULL" sys_domain="global" view="c34111991b033010ea4c2134604bcb6f">6f6295d91b033010ea4c2134604bcb09</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_687487_work_assi_work_assign_task.work_assign</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_id>6b6259d91b033010ea4c2134604bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cloud Mgmt Network Interface - Work Assign" name="cmdb_ci_nic" related_list="NULL" sys_domain="global" view="c34111991b033010ea4c2134604bcb6f">6f6295d91b033010ea4c2134604bcb09</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_687487_work_assi_work_assign_task.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_id>6f6259d91b033010ea4c2134604bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Cloud Mgmt Network Interface - Work Assign</calculated_name>
+            <filter/>
+            <name>cmdb_ci_nic</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-06 05:52:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f6295d91b033010ea4c2134604bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cloud Mgmt Network Interface - Work Assign</sys_name>
+            <sys_package display_value="Work Assign" source="x_687487_work_assi">71394d911b033010ea4c2134604bcb12</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Work Assign">71394d911b033010ea4c2134604bcb12</sys_scope>
+            <sys_update_name>sys_ui_related_cmdb_ci_nic_work_assign</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-06 05:52:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Work Assign" name="work_assign">c34111991b033010ea4c2134604bcb6f</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
