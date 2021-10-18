@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Test_NEEDIT_app">923d57672fc3f0103921c786f699b6cf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Test_NEEDIT_apps</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_707214_needitapp_test_needit_app</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_707214_needitapp.test_needit_app_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:45:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d23d57672fc3f0103921c786f699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_NEEDIT_apps</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_app_module_d23d57672fc3f0103921c786f699b6df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:45:33</sys_updated_on>
+        <timeline_page/>
+        <title>Test_NEEDIT_apps</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</application>
+        <file_path/>
+        <instance_id>53f57cebdb490c9491232f17d49619bc</instance_id>
+        <instance_name>dev94832</instance_name>
+        <name>sys_app_module_d23d57672fc3f0103921c786f699b6df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Test_NEEDIT_app">923d57672fc3f0103921c786f699b6cf</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Test_NEEDIT_apps</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_707214_needitapp_test_needit_app</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_707214_needitapp.test_needit_app_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-13 15:45:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d23d57672fc3f0103921c786f699b6df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test_NEEDIT_apps</sys_name><sys_overrides/><sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package><sys_policy/><sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope><sys_update_name>sys_app_module_d23d57672fc3f0103921c786f699b6df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-13 15:45:33</sys_updated_on><timeline_page/><title>Test_NEEDIT_apps</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-606381566</payload_hash>
+        <record_name>Test_NEEDIT_apps</record_name>
+        <reverted_from/>
+        <source>d014a1d92fc7b0103921c786f699b64c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:45:33</sys_created_on>
+        <sys_id>163d57672fc3f0103921c786f699b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c7a548c8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:45:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e3d5767f2c3f01096cf6b1534597de1</update_guid>
+        <update_guid_history>5e3d5767f2c3f01096cf6b1534597de1:-606381566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test_NEEDIT_apps">060e13a72fc3f0103921c786f699b6f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1c4184172bbc4d30a1493274f0f94900</sys_id>
+        <sys_metadata>d23d57672fc3f0103921c786f699b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_NEEDIT_apps</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_scope_delete display_value="">44bb29ff8a28452fa2834f33266a7181</sys_scope_delete>
+        <sys_update_name>sys_app_module_d23d57672fc3f0103921c786f699b6df</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d23d57672fc3f0103921c786f699b6df">163d57672fc3f0103921c786f699b6e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:49:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

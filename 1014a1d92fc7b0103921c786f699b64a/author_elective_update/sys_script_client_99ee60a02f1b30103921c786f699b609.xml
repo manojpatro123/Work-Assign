@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>status</description>
+        <field>status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test_app_needit</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert(oldValue+"Value from"+newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 05:38:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99ee60a02f1b30103921c786f699b609</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test_app_needit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_script_client_99ee60a02f1b30103921c786f699b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 05:41:40</sys_updated_on>
+        <table>x_707214_needitapp_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</application>
+        <file_path/>
+        <instance_id>53f57cebdb490c9491232f17d49619bc</instance_id>
+        <instance_name>dev94832</instance_name>
+        <name>sys_script_client_99ee60a02f1b30103921c786f699b609</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;status&lt;/description&gt;&lt;field&gt;status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test_app_needit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert(oldValue+"Value from"+newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 05:38:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;99ee60a02f1b30103921c786f699b609&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;test_app_needit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Needitapp" source="x_707214_needitapp"&gt;1014a1d92fc7b0103921c786f699b64a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Needitapp"&gt;1014a1d92fc7b0103921c786f699b64a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_99ee60a02f1b30103921c786f699b609&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 05:41:40&lt;/sys_updated_on&gt;&lt;table&gt;x_707214_needitapp_application&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1062774184</payload_hash>
+        <record_name>test_app_needit</record_name>
+        <reverted_from/>
+        <source>d014a1d92fc7b0103921c786f699b64c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 05:41:40</sys_created_on>
+        <sys_id>b5cfe8e02f1b30103921c786f699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c879ec1ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 05:41:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>31cfe8e0c51b301020b56677abd3c39d</update_guid>
+        <update_guid_history>31cfe8e0c51b301020b56677abd3c39d:1062774184,f79fa0e03c1b301035d26f4feaac2883:2000665703,793faca0821b3010974a1bff3a2c296f:708165952,7a0f2ca05f1b3010e4f3fa12e90b8ef7:-347707178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 05:43:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>11955a722c404372823285ec060b08e9</sys_id>
+        <sys_metadata>99ee60a02f1b30103921c786f699b609</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_app_needit</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_parent display_value="Needit_Application">f895651d2fc7b0103921c786f699b617</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_scope_delete display_value="">44bb29ff8a28452fa2834f33266a7181</sys_scope_delete>
+        <sys_update_name>sys_script_client_99ee60a02f1b30103921c786f699b609</sys_update_name>
+        <sys_update_version display_value="sys_script_client_99ee60a02f1b30103921c786f699b609">b5cfe8e02f1b30103921c786f699b69d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 05:43:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

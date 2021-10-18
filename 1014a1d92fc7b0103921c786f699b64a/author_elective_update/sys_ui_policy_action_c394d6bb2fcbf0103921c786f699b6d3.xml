@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 05:07:06</sys_created_on>
+        <sys_id>c394d6bb2fcbf0103921c786f699b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c394d6bb2fcbf0103921c786f699b6d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 05:07:06</sys_updated_on>
+        <table>x_707214_needitapp_application</table>
+        <ui_policy display_value="Test_read_only_col">b22a4eb32fcbf0103921c786f699b63a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</application>
+        <file_path/>
+        <instance_id>53f57cebdb490c9491232f17d49619bc</instance_id>
+        <instance_name>dev94832</instance_name>
+        <name>sys_ui_policy_action_c394d6bb2fcbf0103921c786f699b6d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>name</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-14 05:07:06</sys_created_on><sys_id>c394d6bb2fcbf0103921c786f699b6d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package><sys_policy/><sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope><sys_update_name>sys_ui_policy_action_c394d6bb2fcbf0103921c786f699b6d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-14 05:07:06</sys_updated_on><table>x_707214_needitapp_application</table><ui_policy display_value="Test_read_only_col">b22a4eb32fcbf0103921c786f699b63a</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-486771873</payload_hash>
+        <record_name>name</record_name>
+        <reverted_from/>
+        <source>d014a1d92fc7b0103921c786f699b64c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 05:07:07</sys_created_on>
+        <sys_id>84b41abb2fcbf0103921c786f699b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c7d3264b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 05:07:07</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ffa41abb9acbf010ae7f12cc122f0591</update_guid>
+        <update_guid_history>ffa41abb9acbf010ae7f12cc122f0591:-486771873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 07:01:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5a8073e42a33432aa0bfb927c7e82e84</sys_id>
+        <sys_metadata>c394d6bb2fcbf0103921c786f699b6d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_scope_delete display_value="">44bb29ff8a28452fa2834f33266a7181</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c394d6bb2fcbf0103921c786f699b6d3</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c394d6bb2fcbf0103921c786f699b6d3">84b41abb2fcbf0103921c786f699b692</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 07:01:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

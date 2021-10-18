@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_707214_needitapp_test_needit_app</description>
+        <name>x_707214_needitapp_test_needit_app</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:45:34</sys_created_on>
+        <sys_id>e23d57672fc3f0103921c786f699b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_707214_needitapp_test_needit_app</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_security_acl_e23d57672fc3f0103921c786f699b6e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:45:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</application>
+        <file_path/>
+        <instance_id>53f57cebdb490c9491232f17d49619bc</instance_id>
+        <instance_name>dev94832</instance_name>
+        <name>sys_security_acl_e23d57672fc3f0103921c786f699b6e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_707214_needitapp_test_needit_app</description><name>x_707214_needitapp_test_needit_app</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-13 15:45:34</sys_created_on><sys_id>e23d57672fc3f0103921c786f699b6e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_707214_needitapp_test_needit_app</sys_name><sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package><sys_policy/><sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope><sys_update_name>sys_security_acl_e23d57672fc3f0103921c786f699b6e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-13 15:45:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>196909638</payload_hash>
+        <record_name>x_707214_needitapp_test_needit_app</record_name>
+        <reverted_from/>
+        <source>d014a1d92fc7b0103921c786f699b64c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:45:34</sys_created_on>
+        <sys_id>aa3d57672fc3f0103921c786f699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c7a548e080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:45:34</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e23d5767cdc3f010024fbeaad92407ec</update_guid>
+        <update_guid_history>e23d5767cdc3f010024fbeaad92407ec:196909638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-13 15:52:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>07346483ee0d48eb8186e94c2d793579</sys_id>
+        <sys_metadata>e23d57672fc3f0103921c786f699b6e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_707214_needitapp_test_needit_app</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_parent display_value="">6e3d97672fc3f0103921c786f699b602</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_scope_delete display_value="">44bb29ff8a28452fa2834f33266a7181</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e23d57672fc3f0103921c786f699b6e9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e23d57672fc3f0103921c786f699b6e9">aa3d57672fc3f0103921c786f699b6ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:52:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

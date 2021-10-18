@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Onchange alert</description>
+        <field>status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test_clientscript_onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert("You have changed value"+ oldValue +" from .."+newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-10 16:01:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74228c362f8730103921c786f699b6a3</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>test_clientscript_onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_script_client_74228c362f8730103921c786f699b6a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 04:38:35</sys_updated_on>
+        <table>x_707214_needitapp_application</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</application>
+        <file_path/>
+        <instance_id>53f57cebdb490c9491232f17d49619bc</instance_id>
+        <instance_name>dev94832</instance_name>
+        <name>sys_script_client_74228c362f8730103921c786f699b6a3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Onchange alert&lt;/description&gt;&lt;field&gt;status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test_clientscript_onchange&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert("You have changed value"+ oldValue +" from .."+newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-10 16:01:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;74228c362f8730103921c786f699b6a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;test_clientscript_onchange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Needitapp" source="x_707214_needitapp"&gt;1014a1d92fc7b0103921c786f699b64a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Needitapp"&gt;1014a1d92fc7b0103921c786f699b64a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_74228c362f8730103921c786f699b6a3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 04:38:35&lt;/sys_updated_on&gt;&lt;table&gt;x_707214_needitapp_application&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1413116825</payload_hash>
+        <record_name>test_clientscript_onchange</record_name>
+        <reverted_from/>
+        <source>d014a1d92fc7b0103921c786f699b64c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 04:38:35</sys_created_on>
+        <sys_id>ad51e4a42fd730103921c786f699b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c8764ffca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 04:38:35</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a151a0a47fd730100cc844df360ee3fc</update_guid>
+        <update_guid_history>a151a0a47fd730100cc844df360ee3fc:1413116825,423120a4f8d7301006a5f8d81afa8803:913496389,4cd060536acf701086df27fc521bff28:277711454,ec105c8b4b837010ec02db5e7d68cefe:2015333746,a7a88c079b83701009478e3627270441:1511486041,8f37cff2cbcf30107bb334f878000184:-1120807645,87b6c33621cf301031478f67bd1ff55e:271506774,5f860336fdcf30104510fce5980e8999:2117793946,05564ff21bcf30109af47c309326fc41:204765237,7d5543f298cf3010047a8b6280799673:-1105511473,1db40bb23ecf30104eb53a3c7778656b:705841357,be850cf675873010eb440e310798609f:-1757362742,2f458cf6a4873010769fead2d01a6e66:-687757128,6324c4b6af8730105929878af6b7562e:-1065812256</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 04:49:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>01666a3b734b4a1084139443ab64f490</sys_id>
+        <sys_metadata>74228c362f8730103921c786f699b6a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_clientscript_onchange</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_parent display_value="Needit_Application">f895651d2fc7b0103921c786f699b617</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_scope_delete display_value="">44bb29ff8a28452fa2834f33266a7181</sys_scope_delete>
+        <sys_update_name>sys_script_client_74228c362f8730103921c786f699b6a3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_74228c362f8730103921c786f699b6a3">ad51e4a42fd730103921c786f699b65b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 04:49:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

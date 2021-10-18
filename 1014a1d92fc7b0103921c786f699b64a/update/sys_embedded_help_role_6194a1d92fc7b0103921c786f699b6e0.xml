@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_707214_needitapp.u_app_admin" name="x_707214_needitapp.u_app_admin">4194a1d92fc7b0103921c786f699b6db</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-06 07:12:09</sys_created_on>
+        <sys_id>6194a1d92fc7b0103921c786f699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4194a1d92fc7b0103921c786f699b6db</sys_name>
+        <sys_package display_value="Needitapp" source="x_707214_needitapp">1014a1d92fc7b0103921c786f699b64a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needitapp">1014a1d92fc7b0103921c786f699b64a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6194a1d92fc7b0103921c786f699b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-06 07:12:09</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

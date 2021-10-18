@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Needit_Application" max_length="40" name="x_707214_needitapp_application" sizeclass="1" type="collection">
+        <element active="false" default="0" label="Active" max_length="11" name="active" type="integer"/>
+        <element display="true" label="Description" max_length="10" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" default="Inprogess" label="Status" mandatory="true" max_length="11" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
